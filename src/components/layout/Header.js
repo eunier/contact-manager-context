@@ -15,17 +15,17 @@ const Header = props => {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <NavLink to="/" className="nav-link">
-                Home
+                <i className="fas fa-home"> Home</i>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/contact/add" className="nav-link">
-                Add
+                <i className="fas fa-plus"> Add</i>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/about" className="nav-link">
-                About
+                <i className="fas fa-question"> About</i>
               </NavLink>
             </li>
           </ul>
