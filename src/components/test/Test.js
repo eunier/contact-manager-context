@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 class Test extends Component {
   state = {
-    test: 'test'
+    title: '',
+    body: ''
   };
 
   // lifecycle methods examples
@@ -11,7 +12,14 @@ class Test extends Component {
   }
 
   componentDidMount() {
-    console.log('componentDidMount...');
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(data =>
+        this.setState({
+          title: data.title,
+          body: data.body
+        })
+      );
   }
 
   componentDidUpdate() {
@@ -39,9 +47,11 @@ class Test extends Component {
   }
 
   render() {
+    const { title, body } = this.state;
     return (
       <div>
-        <h1>Test Component</h1>
+        <h1>{title}</h1>
+        <p>{body}</p>
       </div>
     );
   }
