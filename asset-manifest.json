@@ -1,15 +1,15 @@
 {
-  "main.css": "/contact-manager/static/css/main.8eeeaccd.chunk.css",
-  "main.js": "/contact-manager/static/js/main.22a44c85.chunk.js",
-  "main.js.map": "/contact-manager/static/js/main.22a44c85.chunk.js.map",
-  "runtime~main.js": "/contact-manager/static/js/runtime~main.b61356a3.js",
-  "runtime~main.js.map": "/contact-manager/static/js/runtime~main.b61356a3.js.map",
-  "static/css/2.7271b973.chunk.css": "/contact-manager/static/css/2.7271b973.chunk.css",
-  "static/js/2.2980a9fc.chunk.js": "/contact-manager/static/js/2.2980a9fc.chunk.js",
-  "static/js/2.2980a9fc.chunk.js.map": "/contact-manager/static/js/2.2980a9fc.chunk.js.map",
-  "index.html": "/contact-manager/index.html",
-  "precache-manifest.66d69f5a532b18585f4077ae52ca3509.js": "/contact-manager/precache-manifest.66d69f5a532b18585f4077ae52ca3509.js",
-  "service-worker.js": "/contact-manager/service-worker.js",
-  "static/css/2.7271b973.chunk.css.map": "/contact-manager/static/css/2.7271b973.chunk.css.map",
-  "static/css/main.8eeeaccd.chunk.css.map": "/contact-manager/static/css/main.8eeeaccd.chunk.css.map"
+  "main.css": "/contact-manager-context/static/css/main.71d46f84.chunk.css",
+  "main.js": "/contact-manager-context/static/js/main.1747bc46.chunk.js",
+  "main.js.map": "/contact-manager-context/static/js/main.1747bc46.chunk.js.map",
+  "runtime~main.js": "/contact-manager-context/static/js/runtime~main.0a67c4ce.js",
+  "runtime~main.js.map": "/contact-manager-context/static/js/runtime~main.0a67c4ce.js.map",
+  "static/css/2.5399e523.chunk.css": "/contact-manager-context/static/css/2.5399e523.chunk.css",
+  "static/js/2.2980a9fc.chunk.js": "/contact-manager-context/static/js/2.2980a9fc.chunk.js",
+  "static/js/2.2980a9fc.chunk.js.map": "/contact-manager-context/static/js/2.2980a9fc.chunk.js.map",
+  "index.html": "/contact-manager-context/index.html",
+  "precache-manifest.742ddbe18261cab3c67eb4abfe6d398d.js": "/contact-manager-context/precache-manifest.742ddbe18261cab3c67eb4abfe6d398d.js",
+  "service-worker.js": "/contact-manager-context/service-worker.js",
+  "static/css/2.5399e523.chunk.css.map": "/contact-manager-context/static/css/2.5399e523.chunk.css.map",
+  "static/css/main.71d46f84.chunk.css.map": "/contact-manager-context/static/css/main.71d46f84.chunk.css.map"
 }
