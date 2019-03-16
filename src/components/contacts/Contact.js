@@ -6,10 +6,12 @@ import axios from 'axios';
 class Contact extends Component {
   state = { showContactInfo: false };
 
-  onDeleteClick = (id, dispatch) => {
-    axios
-      .delete(`http://jsonplaceholder.typicode.com/users/:${id}`)
-      .then(res => dispatch({ type: 'DELETE_CONTACT', payload: id }));
+  onDeleteClick = async (id, dispatch) => {
+    try {
+      await axios.delete(`http://jsonplaceholder.typicode.com/users/:${id}`);
+    } finally {
+      dispatch({ type: 'DELETE_CONTACT', payload: id });
+    }
   };
 
   render() {
