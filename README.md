@@ -1,3 +1,5 @@
+The project had been published [here](https://eunier14.github.io/contact-manager-context/#/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
